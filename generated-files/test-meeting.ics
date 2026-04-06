@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AgentisVoice//V Agent//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:test-meeting-001@95percent.ai
+SUMMARY:Test Meeting with V
+DESCRIPTION:This is a test meeting invite from V agent.
+DTSTART:20260408T140000Z
+DTEND:20260408T150000Z
+ORGANIZER;CN=V Agent:mailto:v@95percent.ai
+ATTENDEE;CN=Leonid;RSVP=TRUE:mailto:leonid@95percent.ai
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
